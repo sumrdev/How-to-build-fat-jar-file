@@ -1,7 +1,7 @@
 # How to build a standalone jar file
 by dafe, mawn and mvje
 
-We asume that you have created or downloaded a gradle project.
+We assume that you have created or downloaded a gradle project.
 
 Otherwise here :)
 https://heathered-salmon-2d7.notion.site/Step-by-step-guide-434fee5564fd4a86ae114ffa0936abef
@@ -41,7 +41,7 @@ javafx {
 
 ## Adding a "SuperMain" class
     
-This is neccessary since your main class is called App and extends Application. This means your build.gradle is confused and unhappy 
+This is necessary since your main class is called App and extends Application. This means your build.gradle is confused and unhappy 
 
 SuperMain class should be in your main/java/addressparsing folder, next to all your other java files.
 
@@ -82,7 +82,7 @@ Next add the javafx, this is just the dependecies inside javafx that you use. It
 ```
 
 
-Next you need to make sure that you have given the right main class. This should look somthing like this.
+Next you need to make sure that you have given the right main class. This should look something like this.
 
 ```gradle
 application {
