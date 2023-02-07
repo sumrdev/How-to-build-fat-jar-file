@@ -1,4 +1,5 @@
 # How to build a standalone jar file
+by dafe, mawn and mvje
 
 We asume that you have created or downloaded a gradle project.
 
