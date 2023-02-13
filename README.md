@@ -140,6 +140,7 @@ Otherwise check that you have a SuperMain class and possible mistakes in the bui
 Below is my working build.gradle file
 
 ## Resources folder
+**If you access other files than your java files, then you need to put them in the /resource directory** otherwise the jar wont know where to find themm when you build the fat jar file
 If you access resources in your project, and this does not work, try reading files with if you are using java 19.
 ```java
 InputStream is = getClass().getResourceAsStream("/filename.txt");
