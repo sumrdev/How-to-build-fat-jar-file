@@ -148,7 +148,7 @@ Scanner s = new Scanner(new BufferedReader(new InputStreamReader(is)));
 ```
 If this does not work, maybe you are in another version, try this. DO NOT specify the whole file path, if you have your resource folder put the correct place this will work. Resource folder should be in main/
 ```java
-InputStream in = roadData.class.getResourceAsStream("/veje.txt");
+InputStream in = your_mainclass.class.getResourceAsStream("/filename.txt");
 BufferedReader br = new BufferedReader(new InputStreamReader(in));
 ```
 
